@@ -43,7 +43,7 @@ spec:
       canaryService: backend-canary
       steps:
         - setWeight: 20
-        - pause: {} # Pauses until manually or automatically approved
+        - pause: {}
         - setWeight: 50
         - pause: { duration: 30s }
         - setWeight: 100
